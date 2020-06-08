@@ -81,9 +81,7 @@ h2 {
     -moz-transition-property: transform;
 }
 
-#links>a:hover:before,
-#links>a:focus:before,
-#links>a:active:before {
+#links>a:hover:before{
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
